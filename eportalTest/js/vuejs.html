@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+        <template v-if="loginType === 'username'">
+                <label>Username</label>
+                <input placeholder="Nhập username">
+              </template>
+              <template v-else>
+                <label>Email</label>
+                <input placeholder="Nhập địa chỉ email">
+              </template>
+    <div id="demo">
+        <p v-for = "i in odos">{{i.text}}</p>
+        <button v-on:click="reverseMessage" >click me</button>
+   
+    </div>
+</body>
+<script>
+    Vue.component("header-vue", {
+        template : "<li> {{odos.text}} </li>"
+    })
+    var mydemo = new Vue({
+        el : "#demo",
+        data :  {
+            odos: [
+      { text: 'Học JavaScript',id : 0 },
+      { text: 'Học Vue',id :1 },
+      { text: 'Xây dựng cái gì đó hay ho',id: 2 }
+    ],
+            test : "toi la ia"
+        },
+        methods: {
+            reverseMessage : function(){
+                this.odos = this.odos.reverse().split(" ")
+            }
+        },
+    })
+    var re = new RegExp("ab+c");
+    console.log(re);
+    
+</script>
+</html>

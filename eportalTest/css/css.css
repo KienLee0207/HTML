@@ -1,0 +1,640 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#header {
+    padding: 20px 0;
+}
+.close {
+    display: none !important;
+}
+.close img {
+    margin-right: 10px;
+}
+.close {
+    color: #fff;
+    text-align: center;
+}
+.close a span img {
+    margin-right: 10px;
+}
+.contact, .connect {
+    margin-top: 20px;
+}
+.contact .hotline {
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact p {
+    font-size: 14px;
+    color: #949494;
+}
+.slide {
+    max-height: 565px !important;
+    margin-bottom: 30px !important;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    text-align: center;
+}
+.logo .img img{
+    width: 180px;
+    height: 90px;
+}
+.connect span img {
+    width: 36px ;
+    height: 36px;
+
+}
+.product .all .text p:hover,.product-mid .mid .text p:hover  {
+    cursor: pointer;
+    background-color: rgba(34, 36, 37, 0.4);
+
+}
+.connect span {
+    margin-right: 22px;
+}
+.connect span:nth-child(3) {
+    margin-right: 0 !important;
+}
+.connect {
+    text-align: right;
+}
+#menu {
+    padding: 0;
+}
+#menu ul {
+    padding-left: 1029px;
+    width: 100%;
+    font-size: 0;
+    border-bottom:3px solid #c7c7c7;
+}
+#menu ul li{
+    text-transform: uppercase;
+    display: inline-block;
+    padding:  10px 20px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: -3px;
+}
+#menu ul  li:hover {
+    border-bottom: 3px solid #243d8e;
+    padding-bottom: -3px;
+}
+#menu ul li:nth-child(2){
+    border-bottom: 3px solid #243d8e;
+
+}
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.slide {
+    padding-bottom: 40px;
+}
+.product .watter {
+    background-image: url('../images/mid-banner-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product  .down {
+    animation-duration: 2s;
+    animation-name: down;
+}
+.denleu {
+    display: none;
+    animation-duration: 3s;
+    animation-name: denleu;
+}
+#date {
+    margin-right: 10px;
+}
+.product .up {
+    animation-duration: 3s;
+    animation-name: up;
+}
+.product .up2 {
+    animation-duration: 1s;
+    animation-name: up2;
+}
+.sanpham2.desktop .down2 {
+    animation-duration: 1s;
+    animation-name: down2;
+}
+.product-mid .left {
+    animation-duration: 3s;
+    animation-name: left;
+}
+.product-mid .right {
+    animation-duration: 3s;
+    animation-name: right;
+}
+.sanpham2.desktop {
+    display: none ;
+}
+.login {
+    background: #949494;
+    padding: 10px 0;
+}
+.login input {
+    padding-left: 10px;
+    border-radius: 15px;
+}
+.login span {
+    font-size: 12px;
+    color: #fff;
+}
+.login span a {
+    color: #fff;
+    margin-left: 5px;
+}
+@keyframes down {
+    from {
+        margin-top : -30px;
+        opacity: 0.5;
+    }
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+@keyframes up {
+    from {
+        margin-top:30px ;
+        opacity: 0.5;
+    }
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+@keyframes up2 {
+    from {
+        margin-top:30px ;
+        opacity: 0.5;
+    }
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+@keyframes down2 {
+    from {
+        margin-top:-30px ;
+        opacity: 0.5;
+    }
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+@keyframes denleu {
+    from {
+        margin-top: 30px ;
+        opacity: 0.5;
+    }
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+@keyframes left {
+    from {
+    padding-right:0 ;
+        opacity: 0.5;
+    }
+    to {
+        padding-right:15px;
+        opacity: 1;
+    }
+}
+@keyframes right {
+    from {
+        opacity: 0.5;
+        padding-left:0 ;
+    }
+    to {
+        opacity: 1;
+        padding-left: 15px;
+    }
+}
+.product .jar {
+    background-image: url('../images/mid-banner-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product .product-mid .bag {
+    background-image: url('../images/mid-banner-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product .cooker {
+    background-image: url('../images/mid-banner-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-top {
+  display: none;
+}
+.product-top .all {
+margin-bottom: 40px;
+}
+.product-mid .tents {
+    background-image: url('../images/mid-banner-5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-mid .tentss {
+    background-image: url('../images/mobile-7-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+}
+.product .all .text{
+    padding: 48px 0;
+    width: 100%;
+}
+.product-mid .mid .text {
+    padding: 90px 0;
+    width: 100%;
+}
+.product-mid .mid{
+    margin-bottom: 30px;
+}
+.product .all .text p,.product-mid .mid .text p {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgba(0, 118, 193, 0.40);
+    color: #fff;
+    line-height: 2;
+}
+.product-hot {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.product-hot .product-right .title {
+    padding-bottom: 20px;
+}
+.product-hot .product-right .title h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mobie {
+    display: none !important;
+}
+.product-hot .product-right {
+    width: 100%;
+    padding: 30px 50px;
+    text-align: center;
+}
+.product-hot .product-right .title span img {
+    width: 92px;
+    height: 20px;
+}
+.product-hot .product-right .tables {
+    width: 100%;
+
+}
+.product-hot .product-right .tables .item {
+    max-width: calc((100%-80px)/4);
+    display: inline-block;
+    margin: 0 15px;
+    height: 130px;
+    border: 1px solid #949494;
+
+}
+.product-hot .product-right .tables .item  img {
+    width: 100%;
+}
+.product-hot .product-right .tables .detail p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #1872b4;
+}
+.product-hot .product-right .tables .detail  {
+    text-align: center;
+}
+.banner {
+    background-image: url('../images/mid-banner-9-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .suppot ul li {
+    display: inline-block;
+    color: #fff;
+    padding: 0 120px;
+}
+.banner .suppot ul li h3 {
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.banner .suppot ul {
+    padding: 148px 0;
+    text-align: center;
+}
+.sanpham2 .img img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.sanpham2 .img {
+    border : 2px solid #cccccc;
+    border-bottom: none!important;
+}
+.sanpham2 .img {
+    position: relative;
+    padding-bottom: calc(100% *177 / 266);
+}
+.sanpham2 {
+    margin-top: 30px;
+}
+.sanpham2 .shadow img {
+    width: 100%;
+}
+.sanpham2 .detail p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    border: 2px solid #1872b4;
+
+    border-radius: 5px;
+    cursor: pointer;
+    background: #1872b4;
+}
+.sanpham2 .detail p:hover {
+    color: #1872b4;
+    background: #fff;
+}
+.sanpham2 .detail  {
+    line-height: 2;
+    text-align: center;
+}
+.tintuc h3{
+    text-align: center;
+    font-size: 24;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tintuc h3{
+    padding-bottom: 50px;
+}
+.tintuc .new {
+    text-align: left;
+    color: black;
+    font-size: 16px;
+}
+.tintuc .new a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.tintuc .new a:hover {
+    color: red;
+    text-decoration-line: red;
+}
+.tintuc .date img {
+    width: 15px;
+    height: 15px;
+    scroll-margin-right: 5px;
+}
+.tintuc .new  {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.logos ul li {
+    margin: 0 10px;
+    list-style: none;
+    display: inline-block;
+}
+.logos ul li img{
+    width: 200px;
+    height: 114px;
+}
+.tintuc .img {
+    border : 1px solid #949494 !important;
+    box-shadow: rgb(203, 203, 203) 2px 2px 4px;
+}
+.logos {
+    padding-top: 50px;
+}
+#footer {
+    margin-top: 20px;
+    background-image: url('../images/mid-banner-10.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer .contact0 {
+    padding: 70px 0;
+}
+#footer .contact0 h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#footer .contact0 p {
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#footer .contact0 .new {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.thuvien img {
+    width: 100%;
+}
+.thuvien img:nth-child(1) {
+    margin-bottom: 5px;
+}
+.thuvien {
+    padding: 0 5px !important;
+}
+@media (max-width : 1024px){
+    .contact {
+        display: none !important;
+    }
+    .connect {
+        display: none;
+    }
+    #menu ul {
+        padding:0;
+    }
+    #menu ul li a{
+        color: #fff;
+    }
+    #menu {
+        margin-bottom: 3px;
+        background: #1872b4;
+    }
+    .product-hot .product-left img {
+        width: 100%;
+    }
+    .product-hot {
+        display: table-footer-group
+    }
+    .product-hot .product-right .tables .item:nth-child(3){
+        display: none;
+    }
+    .hot {
+        display: block !important;
+    }
+    .hot .product-right{
+        order: 2;
+    }
+    .desktop {
+        display: none
+    }
+    .close {
+        display: block !important;
+    }
+    .mobie {
+        display: block;
+    }
+    .product .all .text p {
+        font-size: 12px; 
+        margin: 0;
+    }
+    .product-top .all {
+        margin-bottom: 20px;
+    }
+    .item1:nth-child(1) {
+        padding-right: 10px !important;
+    }
+    .item1:nth-child(2) {
+        padding-left: 10px !important;
+    }
+    .slide {
+        padding-bottom: 30px;
+    }
+    .cmobie .text {
+        padding: 56px ;
+    }
+    .product-hot .product-right {
+        padding: 29px 10px;
+    }
+    .product-hot .product-right .tables .item{
+        max-width: 49%;
+        height: auto;
+        margin: 0;
+    }
+    .sanpham {
+        background: #ebebeb;
+    }
+    .product-hot .product-right .tables .item {
+        border: none;
+    }
+    .product-hot .product-right .tables .item .img {
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 4px #ebebeb;
+        border :1px solid  rgb(210, 210, 210);
+    }
+    .shadow {
+        display: none;
+    }
+    .product-hot .product-right .tables .item .detail span {
+        font-weight: bold;
+    }
+    .sanpham2 .detail p {
+        font-size: 10px;
+    }
+    .sanpham2 .mobie .shadow {
+        display: block !important;
+    }
+    .sanpham2 .img {
+        border: 1px solid #ebebeb;
+    }
+    .suppot img {
+        width: 25px;
+        height: 25px;
+    }
+    .banner .suppot ul {
+        padding: 25px 0;
+    }
+    .banner .suppot ul li {
+        padding: 0 10px;
+    }
+    .banner .suppot ul li h3{
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .none {
+        display: none;
+    }
+
+    #footer .contact0 h4{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center !important;
+        color: #fff !important;
+    }
+    #footer .contact0  p{
+        text-align: center;
+        font-weight: bold;
+    }
+    #footer .contact0 {
+        padding: 30px 0;
+    }
+    .flexConnect ul {
+        margin: 0;
+    }
+    .flexConnect ul li {
+        display: inline-block;
+        font-size: 12px;
+        padding: 0 15px;
+    }
+    .flexConnect{
+       position: fixed;
+       width: 100%;
+        bottom:  0;
+        z-index: 2;
+        margin: 0;
+        font-size: 12;
+        background: #ebebeb;
+        text-align: center;
+    }
+    .flexConnect p{
+        margin: 0;
+        
+}
+}
+@media only screen and (max-width: 1024px) {
+    .watter .text,.jar .text {
+      padding: 56px 0 ;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .cmobie .text {
+        padding:  56px 0 !important;
+    }
+}
